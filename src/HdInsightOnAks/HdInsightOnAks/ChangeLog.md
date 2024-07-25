@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 0.2.0
 * Enabled get cluster pool upgrade history.
 * Enabled get cluster upgrade history.
 * Ebabled rollback cluster upgrade.

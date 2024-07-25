@@ -18,6 +18,8 @@
         - Additional information about change #1
 -->
 ## Upcoming Release
+
+## Version 0.2.0
 * Added `Get-AzCodeSigningCertChain` cmdlet to retrieve the certificate chain for a certificate profile.
 
 ## Version 0.1.2

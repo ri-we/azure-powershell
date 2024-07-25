@@ -1,3 +1,26 @@
+## 12.2.0 - August 2024
+#### Az.Compute 8.2.0 
+* Modified cmdlet `New-AzRestorePointCollection`
+   - Removed parameter `-VmId`
+   - Added parameter `-SourceId`
+#### Az.RedisCache 1.10.0 
+* Modified cmdlet `New-AzRedisCache`
+   - Added parameter `-DisableAccessKeyAuthentication`
+* Modified cmdlet `Set-AzRedisCache`
+   - Added parameter `-DisableAccessKeyAuthentication`
+#### Az.Resources 7.3.0 
+* Added cmdlet `Test-AzManagementGroupDeploymentStack`, `Test-AzResourceGroupDeploymentStack`, `Test-AzSubscriptionDeploymentStack`
+#### Az.Sql 5.2.0 
+* Modified cmdlet `New-AzSqlInstance`
+   - Added parameters `-IsGeneralPurposeV2`, `-StorageIOps`
+* Modified cmdlet `Set-AzSqlInstance`
+   - Added parameters `-IsGeneralPurposeV2`, `-StorageIOps`
+* Added cmdlet `Set-AzSqlDatabaseReplicationLink`
+#### Az.StackHCI 2.4.0 
+* Modified cmdlet `New-AzStackHciCluster`
+   - Removed parameter `-SoftwareAssurancePropertySoftwareAssuranceStatus`
+* Added cmdlet `Get-AzStackHciDeploymentSetting`, `Get-AzStackHciEdgeDevice`, `Get-AzStackHciSecuritySetting`, `Get-AzStackHciUpdate`, `Get-AzStackHciUpdateRun`, `Get-AzStackHciUpdateSummary`, `Invoke-AzStackHciUpdate`, `New-AzStackHciDeploymentSetting`, `New-AzStackHciEdgeDevice`, `New-AzStackHciSecuritySetting`, `Remove-AzStackHciDeploymentSetting`, `Remove-AzStackHciEdgeDevice`, `Remove-AzStackHciSecuritySetting`, `Remove-AzStackHciUpdate`, `Remove-AzStackHciUpdateRun`, `Remove-AzStackHciUpdateSummary`, `Set-AzStackHciDeploymentSetting`, `Set-AzStackHciEdgeDevice`, `Set-AzStackHciSecuritySetting`, `Set-AzStackHciUpdate`, `Set-AzStackHciUpdateRun`, `Set-AzStackHciUpdateSummary`, `Test-AzStackHciEdgeDevice`
+
 ## 12.1.0 - July 2024
 #### Az.Compute 8.1.0 
 * Modified cmdlet `Add-AzVMDataDisk`
@@ -877,6 +900,7 @@
    - Changed the type of parameter `-Status` from `Status` to `String`
    - Output type changed from ``PSSupportTicket`` to ``ISupportTicketDetails``
 * Added cmdlet `Get-AzSupportChatTranscript`, `Get-AzSupportChatTranscriptsNoSubscription`, `Get-AzSupportCommunication`, `Get-AzSupportCommunicationsNoSubscription`, `Get-AzSupportFile`, `Get-AzSupportFilesNoSubscription`, `Get-AzSupportFileWorkspace`, `Get-AzSupportFileWorkspacesNoSubscription`, `Get-AzSupportOperation`, `Get-AzSupportTicketsNoSubscription`, `New-AzSupportCommunication`, `New-AzSupportCommunicationsNoSubscription`, `New-AzSupportFileAndUpload`, `New-AzSupportFileAndUploadNoSubscription`, `New-AzSupportFileWorkspace`, `New-AzSupportFileWorkspacesNoSubscription`, `New-AzSupportTicketsNoSubscription`, `Test-AzSupportCommunicationNameAvailability`, `Test-AzSupportCommunicationsNoSubscriptionNameAvailability`, `Test-AzSupportTicketNameAvailability`, `Test-AzSupportTicketsNoSubscriptionNameAvailability`, `Update-AzSupportTicketsNoSubscription`
+
 
 
 
